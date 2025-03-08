@@ -1,0 +1,43 @@
+# 四六级成绩显示修改器
+
+## 一、安装步骤
+
+1. 首先安装油猴插件 Tampermonkey
+   - [Chrome 插件商店](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   - [Edge 插件商店](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
+   - [Firefox 插件商店](https://addons.mozilla.org/firefox/addon/tampermonkey/)
+
+2. 安装本脚本
+   - 访问 [Greasy Fork 脚本页面](https://github.com/xirichuyi/change_the_score_script)
+   - 点击"安装"按钮即可
+
+## 二、使用方法
+
+1. 获取校验码
+   - 添加作者微信：zhou01ma
+   - 获取当前有效的校验码（36小时内有效）
+
+2. 修改成绩
+   - 访问四六级成绩查询网站
+   - 在弹出的输入框中输入校验码
+   - 输入想要显示的成绩
+   - 点击"保存"按钮完成修改
+
+3. 重新修改
+   - 如需重新设置成绩
+   - 按 F12 打开控制台
+   - 输入：`localStorage.removeItem('savedScores')`
+   - 刷新页面即可重新输入
+
+## 三、注意事项
+
+- 本脚本仅修改本地显示效果，不会修改服务器数据
+- 请勿将校验码分享给他人
+- 使用脚本时请遵守相关法律法规
+- 本脚本仅供学习交流使用
+
+## 四、联系方式
+
+作者微信：zhou01ma
+
+如有问题请通过微信联系获取帮助。 
